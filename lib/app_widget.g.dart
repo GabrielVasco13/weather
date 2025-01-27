@@ -8,9 +8,21 @@ List<RouteEntity> get routes => [
         uri: Uri.parse('/home'),
         routeBuilder: b0Builder,
       ),
+      RouteEntity(
+        key: '/search',
+        uri: Uri.parse('/search'),
+        routeBuilder: b1Builder,
+      ),
+      RouteEntity(
+        key: '/detailed',
+        uri: Uri.parse('/detailed'),
+        routeBuilder: b2Builder,
+      ),
     ];
 
 const routePaths = (
   path: '/',
   home: '/home',
+  search: '/search',
+  detailed: '/detailed',
 );

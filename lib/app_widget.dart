@@ -13,6 +13,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: Routefly.routerConfig(
         routes: routes,
+        initialPath: routePaths.home,
       ),
     );
   }
